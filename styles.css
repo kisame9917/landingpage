@@ -845,6 +845,12 @@ h2 {
   }
 }
 
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
 .venue-grid,
 .rsvp-grid,
 .gift-layout {
@@ -855,6 +861,7 @@ h2 {
   border-radius: var(--radius-xl);
   overflow: hidden;
 }
+
 
 .venue-map {
   width: 100%;
