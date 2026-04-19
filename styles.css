@@ -1494,6 +1494,11 @@ h2 {
 }
 
 .gallery-slideshow .slide {
+  position: absolute;
+  inset: 14px;
+  width: calc(100% - 28px);
+  height: calc(100% - 28px);
+  object-fit: cover;
   border-radius: 24px;
 }
 
