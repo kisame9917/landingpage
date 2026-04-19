@@ -1493,6 +1493,10 @@ h2 {
   border-radius: 24px;
 }
 
+.gallery-slideshow .slide {
+  border-radius: 24px;
+}
+
 .hero-main-slider .slide.is-active,
 .gallery-slideshow .slide.is-active {
   opacity: 1;
